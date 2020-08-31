@@ -1,5 +1,5 @@
 const Ajv = require('ajv')
-const debug = require('debug')('chat-express:controllers:auth')
+const debug = require('debug')('app:controllers:auth')
 
 const { User } = require('../models')
 const loginReqSchema = require('../schemas/requests/login.json')

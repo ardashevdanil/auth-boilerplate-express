@@ -1,5 +1,5 @@
 const { User } = require('../models')
-const debug = require('debug')('chat-express:conrollers:user')
+const debug = require('debug')('app:conrollers:user')
 
 const get = async (req, res, next) => {
   try {

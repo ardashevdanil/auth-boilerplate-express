@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const crypto = require('crypto')
 const jwt = require('jsonwebtoken')
-const debug = require('debug')('chat-express:models:user')
+const debug = require('debug')('app:models:user')
 const { addDays }  = require('date-fns')
 
 const Schema = mongoose.Schema
